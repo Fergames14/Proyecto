@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding 0px;
+}
+
+body{
+	background-image:url(fondo1.jpg);
+}
+
+header{
+	padding-top:50px;
+}
+
+header nav{
+	background-color:#000;
+}
+
+header nav ul{
+	list-style:none;
+	overflow:hidden;
+}
+
+header nav ul li{
+	float: left;
+}
+
+header nav ul li a{
+	display:block;
+	text-decoration:none;
+	padding: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+	color:#8C0CD7;
+}
+
+header nav ul li a:hover{
+	background-color:#639;
+	color:#fff;
+}
+
+#img{
+	float: right;
+	position: relative;
+	margin-right: 20px;
+	margin-top: -80px;
+}
