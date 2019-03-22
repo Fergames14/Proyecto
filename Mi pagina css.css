@@ -51,7 +51,18 @@ header nav ul li a:hover{
 }
 
 #div1{
+	background-color: #fff;
 	margin: auto;
 	width: 85%;
 	max-width: 1000px;
+}
+	#div1 p{
+		margin-bottom: 40px;
+	}
+
+.menu-fixed{
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	width: 100%;
 }
