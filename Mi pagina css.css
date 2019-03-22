@@ -30,10 +30,12 @@ header nav ul li{
 header nav ul li a{
 	display:block;
 	text-decoration:none;
-	padding: 10px;
+	padding: 20px;
 	padding-right: 40px;
 	padding-left: 40px;
 	color:#8C0CD7;
+	font-family: arial black;
+	font-size: 14px;
 }
 
 header nav ul li a:hover{
@@ -46,4 +48,10 @@ header nav ul li a:hover{
 	position: relative;
 	margin-right: 20px;
 	margin-top: -80px;
+}
+
+#div1{
+	margin: auto;
+	width: 85%;
+	max-width: 1000px;
 }
