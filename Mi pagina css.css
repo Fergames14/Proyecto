@@ -48,16 +48,16 @@ header nav ul li a:hover{
 	margin: auto;
 	width: 85%;
 	max-width: 1000px;
-	padding: 15px;
 }
 	#div1 p{
-		margin-bottom: 40px;
+		margin: 50px;
 	}
 
 #div2{
 	background-color: #000;
 	width: 100%;
 	height:
+	height: 350px;
 }
 
 .menu-fixed{
