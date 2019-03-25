@@ -2,8 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Documento sin título</title>
+	<title>Fergames_14</title>
   <link rel="stylesheet" type="text/css" href="Mi pagina css.css">
+	<link rel="stylesheet" type="text/css" href="fonts.css">
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="main.js"></script>
 </head>
@@ -14,7 +15,13 @@
     	<nav class="menu">
         	<ul>
             	<li><a href="#1">Inicio</a></li>
-	            <li><a href="#2">Productos</a></li>
+	            <li><a href="#2">Productos</a>
+								<ul>
+									<li><a href="">En casa</a></li>
+									<li><a href="">Paquetes</a></li>
+									<li><a href="">Ropa</a></li>
+								</ul>
+							</li>
     	        <li><a href="#3">Información</a></li>
         	    <li><a href="#4">Contacto</a></li>
             </ul>
@@ -112,12 +119,12 @@
 	</p>
 </div>
 
-<footer align="bottom">
+<footer>
 	<div id="div2">
 		<div class="div3">
-			<img class="img" src="logo2.jpg">
+			<img id="img" src="logo2.jpg">
 		</div>
-		<nav id="nav">
+		<nav id="nav" class="div3">
 			<ul>
 				<li><a href="#5">¿Qué es Fergames_14?</a></li>
 				<li><a href="#6">Preguntas frecuentes</a></li>
@@ -127,6 +134,11 @@
 		</nav>
 		<div class="div3">
 			Sigueme
+			<ul>
+				<li><a id="aux1" href="" class="icon-facebook"></a></li>
+				<li><a id="aux2" href="" class="icon-twitter"></a></li>
+				<li><a id="aux3" href="" class="icon-instagram"></a></li>
+				<li><a id="aux4" href="" class="icon-youtube2"></a></li>
 			Copyright 2019 ©
 		</div>
 	</div>
