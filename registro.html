@@ -21,7 +21,7 @@
     </header>
 
     <section>
-      <form action="index.html" method="get">
+      <form action="" method="post">
         <p>Nombre</p>
           <input type="text" name="nombre" required><br><br>
         <p>Correo</p>
@@ -32,11 +32,11 @@
           <label><input type="radio" name="val" id="val_1" required>Hombre</label>
           <label><input type="radio" name="val" id="val_2" required>Mujer</label><br><br>
         <p>Día</p>
-          <input type="number" name="dia" required><br><br>
+          <input type="number" name="dia" min="1" max="30" value="1" required><br><br>
         <p>Mes y año</p>
           <input type="month" name="mes" required><br><br>
         <p>Edad</p>
-          <input type="number" name="age" required><br><br>
+          <input type="number" name="age" min="1" value="1" required><br><br>
 
         <input type="submit" value="Registrarse">
         <input type="button" value="Regresar" onclick="history.back()">
@@ -44,7 +44,9 @@
     </section>
 
     <footer>
-
+      <p>Al registrarse aceptas los términos y condiciones que se pueden aplicar sobre tu cuenta</p>
+      <p>Todos los logos y productos están reservado por Fergames_14© el uso ajeno a estos productos u/o
+      publicidad seran castigados</p>
     </footer>
   </div>
   </body>
