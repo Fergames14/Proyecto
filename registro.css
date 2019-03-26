@@ -8,12 +8,13 @@
 
 .contenedor{
   margin: auto;
-  background: #fff;
+  background: #000;
   width: 80%;
   max-width: 1000px;
   margin-top: 100px;
   padding-bottom: 50px;
   padding-top: 20px;
+  color: #fff;
 }
 
 .contenedor form{
@@ -23,4 +24,10 @@
 
 footer{
   padding-top: 20px;
+}
+
+#img{
+  position: absolute;
+  top: 300px;
+  left:800px;
 }
