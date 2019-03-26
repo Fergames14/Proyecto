@@ -7,16 +7,45 @@
   </head>
 
   <body background="fondo1.jpg">
-    <header class="contenedor">
-      <h1>Hola Mundo</h1>
+
+  <div class="contenedor">
+    <header>
+      <h1>Registrate para ser miembro del club</h1>
+      <p>
+        Una vez registrado podras enterarte de todas las novedades
+        que ocurren a diario en nuestra comunidad de Fergames_14©,
+        ser participe de exclusivos eventos y descuentos que te
+        ofrecemos en días especiales, a que esperas inicia sesión
+        de una vez y goza de los regalos que te ofrecemos.
+      </p> <br>
     </header>
 
     <section>
+      <form action="index.html" method="get">
+        <p>Nombre</p>
+          <input type="text" name="nombre" required><br><br>
+        <p>Correo</p>
+          <input type="email" name="email" required><br><br>
+        <p>Contraseña</p>
+          <input type="password" name="pass" required><br><br>
+        <p>Sexo</p>
+          <label><input type="radio" name="val" id="val_1" required>Hombre</label>
+          <label><input type="radio" name="val" id="val_2" required>Mujer</label><br><br>
+        <p>Día</p>
+          <input type="number" name="dia" required><br><br>
+        <p>Mes y año</p>
+          <input type="month" name="mes" required><br><br>
+        <p>Edad</p>
+          <input type="number" name="age" required><br><br>
 
+        <input type="submit" value="Registrarse">
+        <input type="button" value="Regresar" onclick="history.back()">
+      </form>
     </section>
 
     <footer>
 
     </footer>
+  </div>
   </body>
 </html>
