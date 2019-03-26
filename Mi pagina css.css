@@ -173,3 +173,11 @@ footer section ul li .icon-youtube2:hover{
 .img{
 	padding: 20px ;
 }
+
+.img2{
+	position: relative;
+	float: right;
+	width: 200px;
+	height: 200px;
+	padding: 0 50px;
+}
