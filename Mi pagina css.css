@@ -139,6 +139,10 @@ footer section ul li .icon-youtube2:hover{
 	left: 50px;
 }
 
+#imgB{
+    position: fixed;
+}
+
 #aux1{
 	color: #fff;
 }
